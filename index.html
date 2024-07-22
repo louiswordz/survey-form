@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <form method="post">
+        <fieldset>
+            <legend> Add user</legend>
+            <label for="FirstName">First Name</label>
+            <input type="text" id="firstName" placeholder="Enter your First Name"><br><br>
+            <label for="LastName">Last Name</label>
+            <input type="text" name="LN" id="LastName" placeholder="Enter Your Last Name"><br><br>
+            <label for="email">Email</label>
+            <input type="email" name="mail" id="email" placeholder="Enter your email"><br><br>
+            <label for="stat">Status</label>
+            <select id="stat">
+                <option value="0" disabled selected>--Make a choice--</option>
+                <option value="Student">Student</option>
+                <option value="Teacher">Teacher</option>
+                <option value="Guest">Guest</option>
+            </select><br><br>
+            <p>Choose your favorite programming language:</p>
+            <label for="html"></label>
+            <input type="radio" name="js-css-html" id="html">
+            <label for="CSS">CSS</label>
+            <input type="radio" id="CSS" name="js-css-html">
+            <label for="Js">JavaScript</label>
+            <input type="radio" id="Js" name="js-css-html"><br><br>
+            <label for="comm">Comment</label>
+            <textarea name="" id=""></textarea><br><br>
+            <label for="dt">Current Date</label>
+            <input type="date" id="st"><br><br>
+            <input type="checkbox" id="news">
+            <label for="news">Sign up for newsletter</label><br><br>
+            <input type="checkbox" id="ag">
+            <label for="ag">Agree to terms and conditions</label><br><br>
+            <input type="submit">
+
+
+
+
+
+
+        </fieldset>
+    </form>
+</body>
+</html>
